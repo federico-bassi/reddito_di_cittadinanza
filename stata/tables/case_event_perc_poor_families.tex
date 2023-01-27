@@ -1,0 +1,41 @@
+\documentclass[]{article}
+\setlength{\pdfpagewidth}{8.5in} \setlength{\pdfpageheight}{11in}
+\begin{document}
+\begin{tabular}{lccc} \hline
+ & (1) & (2) & (3) \\
+VARIABLES & total\_unemployment & unemployment\_no\_degree & unemployment\_25\_34 \\ \hline
+ &  &  &  \\
+perc\_poor\_families & 0.0334 & 0.0956 & 0.0735 \\
+ & (0.0414) & (0.0708) & (0.0846) \\
+2016.year & 1.142*** & 3.369* & 1.374 \\
+ & (0.358) & (1.714) & (1.026) \\
+2017.year & 0.661* & 3.579** & 0.998 \\
+ & (0.338) & (1.492) & (0.726) \\
+2019.year & -0.262 & -0.761 & -0.323 \\
+ & (0.224) & (0.526) & (0.678) \\
+2020.year & -0.124 & -0.878 & 0.457 \\
+ & (0.461) & (0.842) & (1.195) \\
+2021.year & -0.131 & -0.535 & -0.599 \\
+ & (0.382) & (0.791) & (0.636) \\
+2016.year\#c.perc\_poor\_families & -0.00145 & -0.0969 & 0.0880 \\
+ & (0.0228) & (0.113) & (0.104) \\
+2017.year\#c.perc\_poor\_families & 0.00535 & -0.139* & 0.0577 \\
+ & (0.0264) & (0.0671) & (0.0596) \\
+2019.year\#c.perc\_poor\_families & -0.0240 & 0.0167 & -0.0484 \\
+ & (0.0222) & (0.0440) & (0.0640) \\
+2020.year\#c.perc\_poor\_families & -0.120*** & -0.0372 & -0.178 \\
+ & (0.0328) & (0.0636) & (0.104) \\
+2021.year\#c.perc\_poor\_families & -0.110*** & -0.0667 & -0.110** \\
+ & (0.0345) & (0.0510) & (0.0514) \\
+Constant & 12.55*** & 15.34*** & 15.44*** \\
+ & (1.675) & (4.196) & (4.041) \\
+ &  &  &  \\
+Observations & 136 & 136 & 136 \\
+R-squared & 0.794 & 0.467 & 0.676 \\
+Number of id & 20 & 20 & 20 \\
+Unit FE & Yes & Yes & Yes \\
+ Year FE & Yes & Yes & Yes \\ \hline
+\multicolumn{4}{c}{ Robust standard errors in parentheses} \\
+\multicolumn{4}{c}{ *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\
+\end{tabular}
+\end{document}

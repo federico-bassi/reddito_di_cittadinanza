@@ -1,0 +1,21 @@
+	(1)	(2)
+VARIABLES		
+		
+percent_recipients	1.071***	-0.446**
+	(0.163)	(0.193)
+percent_foreigners	-26.19**	37.46
+	(10.94)	(28.80)
+percent_graduates	2.964	-1.770
+	(2.771)	(6.887)
+frac_firms	-16.43	-110.5
+	(17.94)	(72.59)
+Constant	8.568***	19.65**
+	(2.337)	(7.837)
+		
+Observations	315	315
+R-squared		0.158
+Number of id	105	105
+Unit FE	No	Yes
+Year FE	Yes	Yes
+Robust standard errors in parentheses		
+*** p<0.01, ** p<0.05, * p<0.1		
